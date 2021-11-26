@@ -42,10 +42,10 @@ function apiscript($ttype,$field,$urllink){
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'GET',
         CURLOPT_HTTPHEADER => array(
-          'candidateid: chimwazag@gmail.com',
-          'apikey: 3fdb48c5-336b-47f9-87e4-ae73b8036a1c',
-          'Content-Type: application/json'
-        ),
+            'candidateid: '.$apiconfig["candidateid"],
+            'apikey: '.$apiconfig["apikey"],
+            'Content-Type: '.$apiconfig["Content-Type"]
+          ),
         ));
 
         $response = curl_exec($curl);
