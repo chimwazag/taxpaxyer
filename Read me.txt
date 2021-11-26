@@ -1,0 +1,14 @@
+############Taxpayer##################
+
+1. Download taxpayer zip file from github
+
+2. extract zip file in localhost apache server.e.g. Drive:\xampp\htdocs\taxpayer
+
+3. Now run app in url: "localhost/taxpayer"
+
+
+
+
+	Username:chimwazag@gmail.com
+	Password:password000122
+	Link: https://github.com/chimwazag/taxpaxyer
